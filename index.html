@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5f7">
+    <meta name="description" content="Uber Groups: a class-project redesign of group rides, shared food orders, and group management, with three video demos and business hypotheses.">
+    <title>Uber Groups — Three feature demos</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23000000'/%3E%3Ccircle cx='24' cy='33' r='8' fill='white'/%3E%3Ccircle cx='41' cy='33' r='8' fill='white'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Uber Groups, top of page"><span class="brand-square">U</span><span>Uber Groups <small>Class concept</small></span></a>
+        <div class="nav-links"><a href="#today">Uber today</a><a href="#concept">The concept</a><a href="#prototype">Feature demos</a><a href="#impact">Impact</a></div><a class="mobile-nav" href="#prototype">Feature demos ↘</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="top" class="hero shell">
+        <div class="hero-topline"><span>APP REDESIGN · 2026</span><span>01 / 04</span></div>
+        <div class="hero-intro"><h1>Going together<br>should feel <em>easy.</em></h1><div><p>A group concept for sharing rides, ordering food together, and keeping friends on the same page.</p><a class="text-link" href="#prototype">Watch the feature demos <span aria-hidden="true">↘</span></a></div></div>
+        <div class="hero-feature" aria-label="Uber Groups concept preview">
+          <div class="hero-feature-copy"><span class="eyebrow">Introducing the concept</span><h2>Uber Groups</h2><p>Bring friends into a ride or food order. Make each person’s part clear.</p></div>
+          <div class="hero-mini-phone" aria-hidden="true"><div class="mini-handle"></div><div class="mini-route">Downtown → Concert Hall</div><div class="mini-fare"><strong>$47.03</strong><span>estimated trip total</span></div><div class="mini-split"><span>Alex</span><b>$15.68</b></div><div class="mini-split"><span>Maya</span><b>$15.68</b></div><div class="mini-split"><span>Jordan</span><b>$15.67</b></div><div class="mini-approval">Each rider approves their share</div></div>
+        </div>
+      </section>
+
+      <section id="today" class="section shell">
+        <div class="section-heading"><div><span class="section-number">01 · UBER TODAY</span><h2>Moving people.<br>Delivering meals.</h2></div><p>Uber already handles familiar individual tasks well. The question for this project is what happens <strong>when one ride becomes a group decision.</strong></p></div>
+        <div class="today-grid">
+          <article class="today-card rides-card"><div class="card-top"><span>RIDES + DRIVING</span><span aria-hidden="true">↗</span></div><h3>Get a ride.<br>Or drive one.</h3><p>Riders choose a trip and request a car; drivers can earn by accepting rides.</p><div class="rides-visual" aria-hidden="true"><span class="route-dot"></span><span class="route-line"></span><span class="route-dot end"></span><div>Pickup <b>6:45 PM</b></div><div>Destination <b>Concert Hall</b></div></div></article>
+          <article class="today-card eats-card"><div class="card-top"><span>UBER EATS</span><span aria-hidden="true">↗</span></div><h3>Find dinner.<br>Get it delivered.</h3><p>Explore restaurants, place an order, and track delivery or pickup.</p><div class="eats-visual" aria-hidden="true"><span>Order placed</span><strong>Tonight’s dinner</strong><div class="eats-progress"><i></i><i></i><i></i></div><small>Restaurant → courier → you</small></div></article>
+        </div>
+      </section>
+
+      <section id="concept" class="section shell concept-section">
+        <div class="section-heading"><div><span class="section-number">02 · THE CONCEPT</span><h2>One person books.<br>Everyone has a say.</h2></div></div>
+        <div class="concept-card"><div class="concept-left"><span class="eyebrow">THE ORGANIZER’S JOB</span><h3>Make the organizer’s job lighter.</h3><p class="korean">“Booking with Uber means less work for me.”</p></div><div class="concept-right"><p>When friends compare ride options, the person handling the reservation also carries the coordination: who is joining, which car fits, and who agrees to pay what.</p></div></div>
+        <div class="usability-pair" aria-label="Group decision before and after this concept">
+          <article><span>SCENARIO · CURRENT GROUP DECISION</span><h3>The agreement lives in chat.</h3><p>Friends compare apps and prices. One friend organizes the ride, then waits until after matching to use an equal fare split—or handles a different allocation outside that flow.</p><small>Illustrative journey, grounded in Uber’s documented split timing.</small></article>
+          <article><span>PROPOSED CHECKOUT</span><h3>The agreement lives with the ride.</h3><p>Followed friends get an invitation showing their exact cents. Each person says yes before the organizer requests a vehicle.</p><small>Intended usability gain: less coordination for the friend who books.</small></article>
+        </div>
+        <div class="mechanism-grid"><article><span>01</span><h3>Invite at checkout</h3><p>The organizer selects accounts they already follow. No one gets added to a bill without an invitation.</p></article><article><span>02</span><h3>Show exact shares</h3><p>The group sees allocations down to the cent. A revised amount requires a fresh approval.</p></article><article><span>03</span><h3>Wait for each yes</h3><p>Every rider authorizes only their own amount. The lead requests the car after all selected riders approve.</p></article><article><span>04</span><h3>Finish separately</h3><p>In this simulated flow, individual charges happen after the ride. An unpaid share never shifts automatically to the organizer.</p></article></div>
+        <p class="concept-extension">The video demos also explore a shared Uber Eats cart and an Account hub for managing groups.</p>
+      </section>
+
+      <section id="prototype" class="section prototype-section">
+        <div class="shell">
+          <div class="section-heading">
+            <div><span class="section-number">03 · FEATURE DEMOS</span><h2>Three ways<br>to go together.</h2></div>
+            <p>Watch the ride, shared cart, and Account concepts in action. Each short demo plays silently and loops; you can pause any video.</p>
+          </div>
+          <div class="feature-video-grid">
+            <article class="feature-card feature-card--ride">
+              <div class="feature-card-copy"><span class="feature-kicker">01 · GROUP RIDE</span><h3>Book the ride together.</h3><p>Choose a car, invite followed friends, and show each person’s share. The sample trip also shows group chat and split status.</p></div>
+              <div class="feature-media">
+                <video id="video-ride" autoplay muted loop playsinline preload="metadata" poster="assets/group-ride-poster.jpg" width="716" height="1486" aria-label="Group Ride concept walkthrough">
+                  <source src="assets/group-ride.mp4" type="video/mp4">
+                  <a href="assets/group-ride.mp4">Watch the Group Ride video</a>
+                </video>
+              </div>
+              <div class="feature-card-footer"><span>GROUP RIDE · 35 SEC</span><button type="button" class="video-toggle" data-video="video-ride" data-title="Group Ride">Pause video</button></div>
+            </article>
+            <article class="feature-card feature-card--eats">
+              <div class="feature-card-copy"><span class="feature-kicker">02 · GROUP EATS</span><h3>Start a shared food cart.</h3><p>Invite friends to one restaurant order, choose individual bills or an even split, and set a sample spending limit per person.</p></div>
+              <div class="feature-media">
+                <video id="video-eats" autoplay muted loop playsinline preload="metadata" poster="assets/group-eats-poster.jpg" width="716" height="1486" aria-label="Group Eats shared-cart concept walkthrough">
+                  <source src="assets/group-eats.mp4" type="video/mp4">
+                  <a href="assets/group-eats.mp4">Watch the Group Eats video</a>
+                </video>
+              </div>
+              <div class="feature-card-footer"><span>GROUP EATS · 12 SEC</span><button type="button" class="video-toggle" data-video="video-eats" data-title="Group Eats">Pause video</button></div>
+            </article>
+            <article class="feature-card feature-card--account">
+              <div class="feature-card-copy"><span class="feature-kicker">03 · ACCOUNT</span><h3>Keep your groups in one place.</h3><p>See active Ride and Eats groups, revisit example past activity, and manage an existing group’s auto-split setting.</p></div>
+              <div class="feature-media">
+                <video id="video-account" autoplay muted loop playsinline preload="metadata" poster="assets/account-groups-poster.jpg" width="716" height="1486" aria-label="Account groups hub concept walkthrough">
+                  <source src="assets/account-groups.mp4" type="video/mp4">
+                  <a href="assets/account-groups.mp4">Watch the Account video</a>
+                </video>
+              </div>
+              <div class="feature-card-footer"><span>ACCOUNT · 6 SEC</span><button type="button" class="video-toggle" data-video="video-account" data-title="Account">Pause video</button></div>
+            </article>
+          </div>
+          <p class="feature-disclaimer">Class-project concept footage. Booking, payment, and savings screens in the videos are illustrative, not live Uber services or measured outcomes.</p>
+        </div>
+      </section>
+
+      <section id="impact" class="section shell impact-section"><div class="section-heading"><div><span class="section-number">04 · BUSINESS IMPACT</span><h2>Less work for the lead.<br>A better chance to win the ride.</h2></div><p>The business case starts with a group choosing an app together. Easier coordination could make Uber the option the organizer proposes—and other riders accept.</p></div><div class="impact-grid"><article class="impact-card"><span class="impact-index">A · GROUP CHOICE</span><h3>Win group occasions</h3><p>When friends compare apps, a clear checkout may reduce hesitation. More groups choosing Uber would mean incremental trips; existing Uber trips displaced by the new flow must be counted separately.</p><div class="metric">Test: group booking conversion</div></article><article class="impact-card"><span class="impact-index">B · ACTIVE RIDERS</span><h3>Bring friends into the ride</h3><p>Invitations reach followed accounts that already exist. This may activate occasional riders or increase their usage; new-account growth would require a separate onboarding path.</p><div class="metric">Test: invited-rider activation</div></article><article class="impact-card"><span class="impact-index">C · SPENDING</span><h3>Make options easier to weigh</h3><p>Seeing a personal share might make a larger vehicle or extra stop feel worth considering. Higher total trip value is a hypothesis, and the group should still see the full price.</p><div class="metric">Test: group trip value and margin</div></article></div><div class="scenario"><div><span class="eyebrow">ILLUSTRATIVE SCENARIO · NOT UBER PRICES</span><h3>Four friends choose together.</h3><p>A $32 trip is $8 each. If they choose a roomier $48 option, it becomes $12 each—$4 more per person and $16 more in total fare. Whether people actually upgrade, and what Uber earns from it, needs testing.</p></div><div class="scenario-compare"><div><span>STANDARD</span><strong>$8</strong><small>per rider · $32 total</small></div><span class="compare-arrow" aria-hidden="true">→</span><div><span>ROOMIER</span><strong>$12</strong><small>per rider · $48 total</small></div></div></div><div class="impact-close"><strong>What would prove it?</strong><p>Compare group checkout completion, organizer repeat bookings, invited-rider activity, total fare per group occasion, contribution margin, and support contacts against the current flow. A larger fare is not the same as more Uber revenue or profit.</p></div></section>
+    </main>
+    <footer class="footer"><div class="shell footer-inner"><div><strong>Uber Groups</strong><p>Independent class-project concept. Not affiliated with Uber.</p></div><div class="source-links"><span>PRODUCT CONTEXT</span><a href="https://www.uber.com/" target="_blank" rel="noopener noreferrer">Uber rides and driving</a><a href="https://www.ubereats.com/" target="_blank" rel="noopener noreferrer">Uber Eats</a><a href="https://www.uber.com/us/en/ride/group-rides/" target="_blank" rel="noopener noreferrer">Uber Group Rides</a><a href="https://www.uber.com/us/en/u/ride-for-less/" target="_blank" rel="noopener noreferrer">Uber fare-splitting overview</a><a href="https://www.apple.com/store" target="_blank" rel="noopener noreferrer">Visual reference: Apple Store</a></div></div></footer>
+  </body>
+</html>
